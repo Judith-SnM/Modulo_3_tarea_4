@@ -36,7 +36,7 @@ formulario.addEventListener("submit", (event) => {
         }
     }
 
-    if (regex1.test(respnombre.value)||regex1.test(respasunto.value)||regex1.test(respmensaje.value)){
+    if (regex1.test(respnombre.value) || regex1.test(respasunto.value) || regex1.test(respmensaje.value)) {
         respuesta.textContent = ("Mensaje enviado con exito");
     }
 })
